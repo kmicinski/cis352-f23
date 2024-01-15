@@ -19,19 +19,34 @@ placed upon training in algorithmic thinking and programming strategy.
   - Office hours for **programming-related** questions: Wednesday, 2 to 3:30
   - Office hours, 5min questions or less (no debugging help): 30min after class
 - Jailin Ye, teaching assistant
+<<<<<<< HEAD
   - Office hours, Monday 9:30-12:30, location TBA (on Slack)
 
+=======
+  - Monday labs (9-12), office hours TBD
+- Gina Roh, teaching assistant
+  - Blackboard administration, course logistics, and grading
+  
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
 **Workload**:
   - Asynchronous video lecture units (at most ~80min per week)
     - I assume you have watched the videos before class; but no big
       pressure to understand everything, I will recap during
-      class. However, please think of recorded lectures as "the book."
+      class. However, please think of recorded lectures as "the book." 
   - 4 projects
+<<<<<<< HEAD
   - 2 midterms, no final
+=======
+  - 4 to 6 programming exercises
+  - 1 final group project
+  - 2 midterms, second is the last day of class.
+  - Weekly Monday labs, attendance is optional but encouraged
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
   - This will be a project-focused course. Approximately 3-5 hours per
     week outside of class is expected. I recommend against taking this
     course concurrent with other project-heavy courses.
 
+<<<<<<< HEAD
 ##### Monday TA Sessions / Office Hours (TA led)
 
 This course has no formal lab sessions, but the TA will be holding
@@ -47,17 +62,36 @@ is available. The TA is also available for help on Slack. Please ping
 the TA or Kris, either can help--though the TA has more bandwidth and
 may be able to answer more quickly.
 
+=======
+##### Course Tags
+
+The university recommends instructors label their courses with [shared competencies](https://effectiveness.syr.edu/shared-competencies/). We intend for this course to fit the following:
+
+- Critical and Creative Thinking
+- Scientific Inquiry and Research Skills
+
+##### Monday Labs / TA Office Hours (TA led)
+
+Mondays (after the first week), the TA Jailin Ye will lead a lab. Labs
+will be treated informally, and will be held as time for students to
+work together on programming exercises. We will also use labs for
+various logistical purposes (make-up exams, etc...). Attendance in
+labs is recommended, but not required. Our goal is for labs to offer
+time where a bounded group of people can talk to the TA with
+programming questions.
+
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
 ##### Wednesday debugging hours (instructor led)
 
 The professor will be available on Wednesdays, from 2PM to 3:30
-PM. Time must be scheduled in either 5, 10, or 15-minute windows. If
-you plan to take more than 15 minutes, you may be asked to share time
-with other students.
+PM. Please plan to take either a five, 10, or 15-minute block. If you
+plan to take more than 15 minutes, you may be asked to share time with
+other students.
 
 This time is for debugging and to get critique on your code
 style. Please be mindful of the collaboration policy below--it is fine
-to watch in office hours, but be careful not to use it as a crutch to
-develop your own solution. 
+to watch along in office hours, but be careful not to use it as a
+crutch to develop your own solution.
 
 I will try to avoid canceling Wednesday debugging
 hours. Unfortunately, sometimes I do get busy on Wednesdays with
@@ -82,14 +116,19 @@ just via talking, without looking at your code.
    announcement (e.g., on Slack) a day or two before the
    exam. Students are allowed a handwritten, one-sided, US
    letter-sized note sheet.
+<<<<<<< HEAD
 
   - For the first exam, but *not* the second, students will be allowed
+=======
+  - For the first exam (but *NOT* the second) students will be allowed
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
     to submit corrections which will allow them to get back up to 50%
     of their missed points. For example, if a student gets a 50% on
     their exam, and they successfully submit corrections, they will
     receive a mark of 75%. We will specify in detail what is required
     the day we return the first midterm.
 
+<<<<<<< HEAD
 - **Coding Projects -- 50%**
   - Four projects, worth 12.5% each.
 
@@ -108,6 +147,39 @@ just via talking, without looking at your code.
 
   - It is **not** permissible to share your coding exercise solutions
     with classmates outside of your group.
+=======
+- **Autograder Projects / Exercises -- 40%**
+  - 4 individual programming projects (roughly 90% of the autograder grade, equally weighted)
+    - Collaboration/ChatGPT/... IS NOT allowed on projects
+
+  - 4 to 6 equally-weighted group exercises (roughly 10% of the autograder grade, equally weighted)
+    - It is required that all work on exercises be conducted
+      together. It is **not** acceptable for one groupmate to do the
+      work without others present and have others submit. It is also
+      acceptable to work alone (or in a group of two).
+    - Collaboration/ChatGPT/... IS allowed on exercises
+    - It IS NOT permissible to share your coding exercise solutions
+      with classmates outside of your group.
+
+
+- **Final (Group) Project -- 10%**
+  - The final group project (roughly the same size as Autograder
+    projectcs) will involve groups of up to three students. Our
+    tentative plan is that the project will involve writing a compiler
+    for a simple language we introduce in class. The goal is to get
+    some amount of experience working on a team, and also to ensure
+    that students practice pair/group programming.  Project grading
+    details are yet to be announced, but will largely be based on
+    functionality (though may include peer assessment).
+
+- **Bonus Points -- Up to 4%**
+  - There are various points out the semester where I offer bonus
+    opportunities. These are usually ad-hoc, open-ended assignments
+    (e.g., a reflection on a video history of the lambda
+    calculus). Point values float year-to-year (point values mentioned
+    in videos may not be accurate, see the course Slack), but each
+    student may accrue up to 4% bonus points.
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
 
 Final grades will be assigned as follows. A small "bump" may be given
 in practice, but is not guaranteed--this will be announced at the end
@@ -144,12 +216,19 @@ Slack around the last week of class.
 - Closure-creating interpreters
 - Church numerals, church encoding
 - Fixed points and fixed point combinators
-- Simply-typed lambda calculus
-- Nominal type systems for object orientation
+- Continuations and call/cc
+- Principles of compilation
+- Compilation of primitives, let, and if to pseudo-assembly
+- Overview of more advanced compilation topics: instruction selection,
+  calling conventions, register allocation, etc...
 
+<<<<<<< HEAD
 #### Projects (40%)
+=======
+#### Autograder Exercises / Projects (40%)
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
 
-There are *four programming projects* in Racket. Projects will
+There are *four individual programming projects* in Racket. Projects will
 generally have deadlines of roughly 14 calendar days from their
 assignment (though this may be adjusted at times). Projects will be
 graded using an *autograder* whose URL is
@@ -160,6 +239,7 @@ learn how to use the Git interface to the autograder--the autograder
 will technically accept archives, but the instructors strongly prefer
 students (and will exclusively help support) using Git.
 
+<<<<<<< HEAD
 #### Exercises (10%)
 
 There will be between 4 and 6 programming exercises assigned on the
@@ -172,10 +252,37 @@ submission. You may not share code with anyone outside of your group
 unless explicitly allowed to do so by an instructor.
 
 ##### Project / Exercise Late Policy
+=======
+There will also be between four and six *group programming exercises*
+in Racket. These exercises may be done in groups of up to three
+students. Groups *MUST* write their solution together (Zoom/video call
+is acceptable, but it must be synchronous). 
 
-- Projects turned in within 72 hours of the deadline will receive a 15
-  percent penalty. Projects turned in after 72 hours and until the end
-  of the course will receive a 25 percent penalty.
+Exercises and projects will be weighted at point values of 100 points
+(exercises) and 1000 points (projects), so that projects are worth
+roughly 10x as much as exercises. Exact grading weights on the
+autograder are subject to change pending sufficient notice to
+students, but will never be more work (or less advantageous to
+students) than the grading bars specified here.
+
+##### Project / Exercise Late Policy
+
+- Projects and exercises turned in within 72 hours of the deadline
+  will receive a 15 percent penalty. Projects turned in after 72 hours
+  and until the end of the course will receive a 25 percent penalty.
+
+- I will **NOT** grant one-off project extensions without good
+  reason. There is a liberal late policy. I encourage you to take the
+  15% off and submit late--many projects will have bonus points that
+  will allow you to raise your grade and offset late submissions, and
+  a single late submission will likely not change your final course
+  grade.
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
+
+- I am happy to move project deadlines for religious observances,
+  excused medical absence, and similar unforeseen
+  circumstances. Please email me and we can discuss a satisfactory
+  resolution.
 
 - I will not grant one-off project extensions without good
   reason. There is a liberal late policy. I encourage you to take the
@@ -324,6 +431,17 @@ rules with respect to its usage in CIS352:
   by ChatGPT*. Duplicate submissions, even those due to identical
   outputs of ChatGPT, will be considered honor code violations.
 
+<<<<<<< HEAD
+=======
+- In the event that we doubt that the student submitted code they
+  wrote themselves (for any reason), we reserve the ability to call
+  upon students to explain portions of their solution in person or on
+  video conference call with the instructional staff. Cases that
+  cannot be explained (and with sufficient reason to believe work was
+  not done by the student) will be reported to the academic integrity
+  council.
+
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
 ## Slack/Email Policy
 
 Please keep all questions related to course projects and policies on
@@ -342,29 +460,27 @@ believe you have an approved accomodation--there is a blanket late
 policy in place which takes precedent here, and the Autograder does
 not allow one-off project extensions.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c56ece91963fea3b15dfce5e413fe33e303d22e4
 ## Student Support
 
 Syracuse University values diversity and inclusion; we are committed
 to a climate of mutual respect and full participation. There may be
 aspects of the instruction or design of this course that result in
 barriers to your inclusion and full participation in this course. I
-invite any student to meet with me to discuss strategies and/or
+invite any student to contact me to discuss strategies and/or
 accommodations (academic adjustments) that may be essential to your
-success and to collaborate with the Office of Disability Services
-(ODS) in this process.
+success and to collaborate with the Center for Disability Resources
+(CDR) in this process.
 
-If you would like to discuss disability-accommodations or register
-with ODS, please visit their website at
-http://disabilityservices.syr.edu. Please call (315) 443-4498 or email
-disabilityservices@syr.edu for more detailed information.
+If you would like to discuss disability accommodations or register
+with CDR, please visit Center for Disability Resources
+(https://disabilityservices.syr.edu/). Please call (315) 443-4498 or
+email disabilityresources@syr.edu for more detailed information.
 
-ODS is responsible for coordinating disability-related academic
-accommodations and will work with the student to develop an access
-plan. Since academic accommodations may require early planning and
-generally are not provided retroactively, please contact ODS as soon
-as possible to begin this process.
-
-## Accreditation
+## Accreditation and Use of Student Work
 
 As part of the regular ABET accreditation process for the
 undergraduate program in computer science, we may be collecting
@@ -372,6 +488,21 @@ samples of students' work in each of our undergraduate classes.  As a
 result, some of your labs/homeworks/exams may be photocopied/scanned
 (or electronically copied) to be presented for accreditation at some
 later point.
+
+## Faith Tradition Observances 
+
+Syracuse University’s Religious Observances Policy
+(https://policies.syr.edu/policies/university-governance-ethics-integrity-and-legal-compliance/religious-observances-policy/)
+recognizes the diversity of faiths represented in the campus community
+and protects the rights of students, faculty, and staff to observe
+religious holy days according to their traditions. Under the policy,
+students are given an opportunity to make up any examination, study,
+or work requirements that may be missed due to a religious observance,
+provided they notify their instructors no later than the academic drop
+deadline. For observances occurring before the drop deadline,
+notification is required at least two academic days in
+advance. Students may enter their observances in MySlide under Student
+Services/Enrollment/My Religious Observances/Add a Notification.
 
 ## Student Mental Health
 
