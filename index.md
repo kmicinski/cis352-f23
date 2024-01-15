@@ -1,11 +1,8 @@
 ---
 layout: mainpage
 ---
-
 <!-- ## Course Structure -->
-
 <!-- Please read the [Syllabus]({{ "/syllabus" | absolute_url }}) for course information. -->
-
 <table class="table table-sm table-striped">
   <thead>
     <tr>
@@ -26,7 +23,7 @@ layout: mainpage
       <th scope="row">8/29</th>
       <td>Lecture</td>
       <td>L0</td>
-      <td><a href="https://www.youtube.com/watch?v=zFzNhjFv22A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=3">Introduction to Racket and Dr. Racket (video)</a> <a href="{{ '/assets/slides/cis352-f22-l0.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
+      <td><a href="https://www.youtube.com/watch?v=zFzNhjFv22A&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=3">Introduction to Racket and Dr. Racket (video)</a> <a href="{{ '/assets/slides/cis352-f23-l0.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">8/31</th>
@@ -53,10 +50,10 @@ layout: mainpage
       <td><a href="http://sarabander.github.io/sicp/html/Chapter-1.xhtml#Chapter-1">SICP sections 1 through 1.1.5 (stop before 1.1.6)</a></td>
     </tr>
     <tr class="table-warning">
-      <th scope="row">9/7</th>
+      <th scope="row">9/8</th>
       <td>Project</td>
       <td>P1</td>
-      <td><a href="{{ '/projects/1' | prepend: site.baseurl | prepend: site.url }}">ASCII Art -- Released</a></td>
+      <td><a href="https://www.youtube.com/watch?v=ApIXt_Exf7g">Tic-Tac-Toe -- Released (Due on 9/21)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">9/12</th>
@@ -135,7 +132,7 @@ layout: mainpage
       <th scope="row">10/5</th>
       <td>Lecture</td>
       <td>L11</td>
-      <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=16">Interpreting IfArith</a>   <a href="https://gist.github.com/kmicinski/7c9bbe55363107ededa028ba917ba10b">(Code)</a> and <a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a>   <a href="{{ '/assets/slides/ifarith.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
+      <td><a href="https://www.youtube.com/watch?v=vhOH2GmuYrQ&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=16">Interpreting IfArith</a>   <a href="https://gist.github.com/kmicinski/7c9bbe55363107ededa028ba917ba10b">(Code)</a> and <a href="https://www.youtube.com/watch?v=neCrsTf8h7Y&list=PLXaqTeMx01E-l20YhTNwN4xncM-1jweqG&index=17">Natural Deduction for IfArith</a>   <a href="{{ '/assets/slides/natded.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-info">
       <th scope="row">10/10</th>
@@ -183,7 +180,7 @@ layout: mainpage
       <th scope="row">10/26</th>
       <td>Exam</td>
       <td>M1</td>
-      <td><strong>Midterm 1 (in class, 15%)</strong></td>
+      <td><strong>Midterm 1 (in class, 20%)</strong></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">10/31</th>
@@ -213,7 +210,7 @@ layout: mainpage
     <tr class="table-primary">
       <th scope="row">11/7</th>
       <td>Lecture</td>
-      <td>L20</td>
+      <td>L18</td>
       <td><a href="https://www.youtube.com/watch?v=izfoxmSAQ28">Church Encoding</a> <a href="{{ '/assets/slides/p4.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     <tr class="table-warning">
       <th scope="row">11/7</th>
@@ -225,20 +222,21 @@ layout: mainpage
     <tr class="table-primary">
       <th scope="row">11/9</th>
       <td>Lecture</td>
-      <td>L21</td>
-      <td><a href="https://www.youtube.com/watch?v=GJi4H2UMaRU&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=26">Fixed Points, Y/U combinators</a> and </td>
+      <td>L19</td>
+      <td><a href="https://www.youtube.com/watch?v=GJi4H2UMaRU&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=26">Fixed Points, Y/U combinators</a> and <a href="https://www.youtube.com/watch?v=K-AhJgjb-8s&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=27">Continuations</a> <a href="{{ '/assets/slides/y-comb.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">11/14</th>
       <td>Lecture</td>
-      <td>L22</td>
-      <td><a href="https://www.youtube.com/watch?v=K-AhJgjb-8s&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=27">Continuations</a> <a href="{{ '/assets/slides/y-comb.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
+      <td>L20</td>
+      <td>Fixed-Points, Intuitionistic Propositional Logic: Part 1 <a href="{{ '/assets/slides/ipl.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
+
     <tr class="table-primary">
       <th scope="row">11/16</th>
       <td>Lecture</td>
-      <td>L23</td>
-      <td><a href="https://www.youtube.com/watch?v=K-AhJgjb-8s&list=PLXaqTeMx01E_eK1ZEpKvKL5KwSaj7cJW9&index=27">Simply-Typed Lambda Calculus</a> <a href="{{ '/assets/slides/stlc.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
+      <td>L21</td>
+      <td>Intuitionistic Propositional Logic: Part 2 (Slides continue from previous)</td>
     </tr>
     <tr class="table-info">
       <th scope="row">11/21</th>
@@ -255,32 +253,32 @@ layout: mainpage
     <tr class="table-primary">
       <th scope="row">11/28</th>
       <td>Lecture</td>
-      <td>L25</td>
-      <td>STLC Review, polymorphism, and type inference</td>
-    </tr>
-    <tr class="table-danger">
-      <th scope="row">11/28</th>
-      <td>Project</td>
-      <td>P4</td>
-      <td><a href="{{ '/projects/23 | prepend: site.baseurl | prepend: site.url }}">PROJECT 4 DEADLINE</a></td>
+      <td>L22</td>
+      <td>Type Systems, Part 1 <a href="{{ '/assets/slides/types.pdf' | prepend: site.baseurl | prepend: site.url }}">(Slides)</a></td>
     </tr>
     <tr class="table-primary">
       <th scope="row">11/30</th>
       <td>Lecture</td>
-      <td>L25</td>
-      <td>Rust's type system and the borrow checker</td>
+      <td>L23</td>
+      <td>Type Systems, Part 2 (slides continue from previous)</td>
     </tr>
     <tr class="table-primary">
       <th scope="row">12/5</th>
       <td>Lecture</td>
-      <td>L26</td>
-      <td>Course wrapup, review for midterm 2</td>
+      <td>L24</td>
+      <td>Midterm 2 Review (led by Yihao)</td>
     </tr>
     <tr class="table-danger">
       <th scope="row">12/7</th>
       <td>Exam</td>
       <td>M2</td>
-      <td><strong>Midterm 2 (in class, 15%)</strong></td>
+      <td><strong>Midterm 2 (in class, 20%)</strong></td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">12/7</th>
+      <td>Project</td>
+      <td>P4</td>
+      <td>PROJECT 4 (`p3` on autograde) DEADLINE</td>
     </tr>
     <!-- <tr class="table-danger"> -->
     <!--   <th scope="row">11/16 &ndash; 11/18</th> -->
